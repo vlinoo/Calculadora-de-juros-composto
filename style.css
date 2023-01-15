@@ -44,3 +44,35 @@
     margin-top: 10px;
     width: 100%;
 }
+
+#calculator h2 {
+    font-size: 30px;
+    position: relative;
+}
+
+#calculator h2::before{
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 150px;
+    background: var(--linear-gradient);
+    bottom: 1px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    width: 100% ;
+}
+
+.input-field label{
+    font-size: 15px;
+    color: #c8ced6;
+    font-weight:500 ;
+
+}
+
+.input-field input {
+    
+    background-color: transparent;
+}
