@@ -102,3 +102,11 @@
     
 }
 
+@media screen and (max-width:414px){
+    #calculator h2::before{
+        background: none;
+    }
+    #calculator h2{
+        flex-direction: column;
+    }
+}
